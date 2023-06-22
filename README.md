@@ -1,6 +1,6 @@
 # Teste AlpesOne
 
-O projeto foi desenvolvido para o teste referente a vaga de Fron-end na AlpesOne, utilizando-se principalmente Gulp, Nunjucks e SASS.
+O projeto foi desenvolvido para o teste referente a vaga de Front-end na AlpesOne, utilizando principalmente Gulp, Nunjucks e SASS.
 
 ## Pré-requisitos
 
