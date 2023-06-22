@@ -1,0 +1,23 @@
+<!-- Sample layout template -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/styles/index.css">
+</head>
+<body>
+
+  {% include 'components/header.njk' %}
+  
+  <main>
+    {% include 'components/banner.njk' %}
+    {% include 'components/cards.njk' %}
+  </main>
+
+  {% include 'components/footer.njk' %}
+
+  <script src="/assets/scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+	"logos": {
+		"logoBMW": "../assets/images/logo-bmw-rio.svg",
+		"logoAlpes": "../assets/images/logo-alpes.png"
+	},
+	"header": {
+		"buttonTel": "(21) 2042-4442",
+		"iconTel": "../assets/images/icons/telefone.svg#Camada_1",
+		"buttonTour": "Tour Virtual",
+		"iconTour": "../assets/images/icons/360.svg#Camada_1",
+		"buttonWtspp": "Whatsapp",
+		"iconWtspp": "../assets/images/icons/whatsapp.svg#Camada_1"
+	},
+	"banner": {
+		"bannerMobile": "../assets/images/mobile-banner.png",
+		"bannerDesktop": "../assets/images/banner01.jpg"
+	},
+	"cards": {
+		"cardsContent": [
+			{
+				"carImage": "../assets/images/veiculos/m3.png",
+				"carName": "BMW Série 1",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/m5.png",
+				"carName": "BMW M3 Competition",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/serie1.png",
+				"carName": "BMW M5",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/serie2.png",
+				"carName": "BMW X2",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/serie-3.png",
+				"carName": "BMW Série 4",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/serie-4.png",
+				"carName": "BMW Série 3",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/x2.png",
+				"carName": "BMW Z4",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			},
+			{
+				"carImage": "../assets/images/veiculos/z4.png",
+				"carName": "BMW Série 2",
+				"carCotacao": "/",
+				"carFbLink": "/",
+				"carWtsppLink": "/"
+			}
+		],
+		"icons": {
+			"iconFb": "../assets/images/icons/facebook.svg#Camada_1",
+			"iconWtspp": "../assets/images/icons/whatsapp.svg#Camada_1"
+		}
+	},
+	"footer": {
+		"footerText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a elementum orci, vitae commodo nibh. In vitae convallis nisl. Morbi rhoncus mattis purus sed commodo. Integer rhoncus ex risus. Proin efficitur elit nunc, ut pulvinar massa egestas in. Fusce quis quam viverra, pretium quam ac, consectetur lectus.",
+		"copy": "© Copyright © 2023 Lorem ipsum dolor sit amet."
+	}
+}

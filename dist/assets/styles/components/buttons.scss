@@ -1,0 +1,19 @@
+.button {
+	@extend %button;
+
+	&__primary {
+		@extend %button__primary;		
+	}
+
+	&__secondary {
+		@extend %button__secondary;		
+	}
+
+	&__whatsapp {
+		@extend %button__whatsapp;
+	}
+
+	&__ligar {
+		@extend %button__ligar;	
+	}
+}

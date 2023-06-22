@@ -1,0 +1,56 @@
+.footer {
+	background-color: #E6E6E6;
+	padding: 4rem 0;
+	margin-top: 4rem;
+	font-size: $sm;
+	
+	&__container {
+		@extend %container;
+	}
+
+	&__text {
+		@extend %text-center;
+		padding-bottom: 2rem;
+	}
+
+	&__bottom {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		justify-content: center;
+		border-top: solid 1px $secondary;
+		padding-top: 2rem;
+
+		span {
+			@extend %text-center;
+		}
+
+		@include md {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+
+	&__logo {
+		display: none;
+
+		@include lg {
+			display: block;
+
+			img {
+				width: 3rem;
+			}
+		}
+	}
+}
+
+.alpesone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 0.5rem;
+
+	img {
+		width: 8rem;
+	}
+}

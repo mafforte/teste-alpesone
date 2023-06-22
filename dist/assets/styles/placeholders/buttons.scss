@@ -1,0 +1,57 @@
+%button {
+	color: $lighten;
+	padding: 0.5rem 1rem;
+	max-width: 300px;
+	transition: all .2s;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	column-gap: 0.5rem;
+	font-weight: 600;
+
+	&__primary {
+		background-color: $primary;
+		text-transform: none;
+		text-align: center;
+		font-size: $sm;
+		padding: 1rem;
+		display: block;
+		margin: 2rem 0;
+		width: 100%;
+
+		&:hover {
+			background-color: $primaryHover;
+		}
+	}
+
+	&__secondary {
+		background: $darken;
+
+		&:hover {
+			background-color: $secondary;
+		}
+	}
+
+	&__whatsapp {
+		background: $wtspp;
+
+		&:hover {
+			background-color: $wtsppHover;
+		}
+	}
+	
+	svg {
+		width: 1.2rem;
+		height: 1.2rem;
+		fill: #fff;
+	}
+
+	&__ligar {
+		background: $secondary;
+
+		&:hover {
+			background-color: $darken;
+		}
+	}
+}

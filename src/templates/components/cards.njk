@@ -1,0 +1,44 @@
+<div class="cards">
+
+  <div class="cards__title">  
+    <h1>ESCOLHA SEU BMW</h1>
+  </div>
+
+  <div class="cards__grid">
+
+    {% for card in cards.cardsContent %}
+      <div class="card__item">
+        <a href="{{ card.carCotacao }}">
+          <img src="{{ card.carImage }}" alt="Gallery Image" />
+        </a>
+
+        <h3>{{ card.carName }}</h3>
+
+        <div class="card__buttons">
+          <a href="{{ card.carCotacao }}" class="button button__primary">
+            Cotação
+          </a>
+
+          <a href="#0" class="button button__primary button__ligar">
+            Ligar
+          </a>
+        </div>
+
+        <div class="card__social">
+          <span>Compartilhe:</span>
+          <a href="{{ card.carFbLink }}">
+            <svg>
+              <use xlink:href="{{ cards.icons.iconFb }}" />
+            </svg>
+          </a>
+          <a href="{{ card.carWtsppLink }}">
+            <svg>
+              <use xlink:href="{{ cards.icons.iconWtspp }}" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>

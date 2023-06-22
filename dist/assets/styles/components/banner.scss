@@ -1,0 +1,48 @@
+.banner {
+	max-width: 100vw;
+
+	img {
+		width: 105%;
+		object-fit: cover;
+    animation: glitch .3s;
+    animation-delay: 1s;
+	}
+
+  &__mobile {
+    @include md {
+      display: none;
+    }
+  }
+
+  &__desktop {
+    display: none;
+    
+    @include md {
+      display: block;
+    }
+  }
+}
+
+@keyframes glitch {
+  0% {
+  	filter: hue-rotate(0deg);	
+  }
+
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+
+  62% {
+    transform: translate(0, 0) skew(0deg);
+  }
+
+  100% {
+  	filter: hue-rotate(360deg);
+  }
+}

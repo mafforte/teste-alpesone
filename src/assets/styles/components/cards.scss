@@ -1,0 +1,77 @@
+.cards {
+	@extend %container;
+
+	&__title {
+		h1 {
+			@extend %text-center;
+			@extend %font-light;
+			font-size: $lg;
+			margin: 4rem 0;
+		}
+	}
+
+	&__grid {
+		display: grid;
+		grid-auto-flow: row;
+		gap: 4rem;
+
+		@include md {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@include xl {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+}
+
+.card {
+	&__item {
+		img {
+			display: table;
+			max-width: 20rem;
+			width: 100%;
+			transition: opacity .2s;
+			margin: 0 auto;
+
+			&:hover {
+				opacity: 50%;
+			}
+		}
+		h3 {
+			@extend %font-light; 
+		}
+	}
+
+	&__buttons {
+		display: flex;
+		column-gap: 1rem;
+
+		@include lg {
+			display: block;
+
+			.button__ligar {
+				display: none;
+			}
+		}
+	}
+
+	&__social {
+		display: flex;
+		column-gap: 1rem;
+		align-items: center;
+		font-size: $sm;
+		color: $secondary;
+
+		svg {
+			width: 1.3rem;
+			height: 1.3rem;
+			fill: $secondary;
+			transition: fill .2s;
+
+			&:hover {
+				fill: $primary;
+			}
+		}
+	}
+}

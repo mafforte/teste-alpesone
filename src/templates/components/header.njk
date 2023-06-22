@@ -1,0 +1,82 @@
+<header>
+
+  <div class="header">
+
+    <div class="header__mobile">
+      <div class="header__mobile-grid">
+        <div class="header__mobile-tel">
+            <svg>
+              <use xlink:href="{{ header.iconTel }}" />
+            </svg>
+            {{ header.buttonTel }} 
+        </div>
+
+        <div class="logo">
+          <img src="{{ logos.logoBMW }}" alt="Logo BMW">
+        </div>
+      </div>
+
+      <div class="header__mobile-cotacao">
+        <a href="#0" class="button button__primary">Solicite uma cotação</a>
+      </div>
+    </div>
+
+    <div class="header__desktop">
+      <nav class="nav">
+
+        <div class="nav__buttons">
+          <div class="nav__item">
+            <a href="#0" class="button button__secondary">
+              <svg>
+                <use xlink:href="{{ header.iconTel }}" />
+              </svg>
+              {{ header.buttonTel }}
+            </a>
+          </div>
+
+          <div class="nav__item">
+            <a href="#0" class="button button__secondary">
+              <svg>
+                <use xlink:href="{{ header.iconTour }}" />
+              </svg>
+              {{ header.buttonTour }}
+            </a>
+          </div>
+
+          <div class="nav__item">
+            <a href="#0" class="button button__whatsapp">
+              <svg>
+                <use xlink:href="{{ header.iconWtspp }}" />
+              </svg>
+              {{ header.buttonWtspp }}
+            </a>
+          </div>
+        </div>
+
+        <div class="nav__pagination">
+          <ul> 
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>X</li>
+            <li>Z</li>
+            <li>M</li>
+            <li>Plug-in-Hybrid</li>
+          </ul>
+        </div>
+        
+      </nav>
+
+      <div class="logo">
+        <img src="{{ logos.logoBMW }}" alt="Logo BMW">
+      </div>
+    </div>
+
+  </div>
+
+</header>
